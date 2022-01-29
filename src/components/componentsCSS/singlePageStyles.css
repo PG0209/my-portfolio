@@ -1,0 +1,91 @@
+section{
+  scroll-snap-align: start;
+}
+.container-fluied{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+.go-down{
+  top: 50%;
+  color: white;
+  position: absolute;
+  transform: rotate(90deg);
+  padding: 2px;
+  border: 0.5px solid white;
+  border-radius: 5px;
+  opacity: 0.5;
+}
+.page-navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+ }
+.page-1{
+  margin-top: 0;
+  margin-left: 0;
+  height: 100vh;
+}
+.page-2{
+  height: 100vh;
+}
+.page-3{
+  height: 180vh;
+}
+.page-4{
+  height: 200vh;
+}
+ 
+.page-5{
+  height: 80vh;
+}
+@media screen and (max-width: 992px ) {
+  .page-1{
+    margin-left: 230px;
+  }
+  .page-2 {
+    height: 120vh;
+  }
+}
+@media screen and (max-height: 992px ) {
+  .page-2 {
+    height: 150vh;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-height: 760px ) {
+  
+  .page-2 {
+    height: 150vh;
+    margin-left: 100px;
+    margin-top: -10px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .page-1{
+    margin-top: -500px;
+  }
+  .page-4{
+    height: 250vh;
+  }
+}
+@media screen and (max-width: 760px) {
+  .page-1{
+    margin-top: -500px;
+  }
+  .page-4{
+    height: 250vh;
+  }
+}
+@media screen and (max-width: 560px) {
+  .page-2{
+    height: 200vh;
+  }
+  .page-3{
+    height: 240vh;
+  }
+  .page-4{
+    height: 300vh;
+  }
+}

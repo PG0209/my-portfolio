@@ -1,0 +1,152 @@
+.skills-heading{
+     text-align: center;
+     font-family: 'Dongle', sans-serif;
+     padding-top: 80px;
+     height: 200vh;
+  }
+ .skills-title{
+    font-size: 36px;
+    text-transform:uppercase ;
+    font-weight: bold;
+    color: white;
+ }
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .learnt{
+     color:white;
+ }
+.skills-dis{
+    color: white;
+}
+
+ .card{
+   border: none;
+   width: 300px;
+   margin: 20px;
+   transition:  0.3s ease-out;
+   height: 400px;
+   background: #413161;
+ }
+hr{
+    margin-top: 55px;
+    color: white;
+}
+.dis{
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px;
+    color: white;
+ }
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.icon-css{
+    margin-top: 50px;
+    color:rgb(185, 8, 255);
+    animation: mymove 5s linear infinite;
+}
+ 
+.icon-html{
+    margin-top: 50px;
+    color:rgba(255, 66, 8, 0.774);
+    animation: mymove 5s linear infinite;
+}
+ 
+.icon-react{
+    margin-top: 50px;
+    color:rgb(8, 177, 255);
+    animation: mymove 5s linear infinite;
+}
+ 
+.icon-js{
+    margin-top: 50px;
+    color:rgb(255, 230, 8);
+    animation: mymove 5s linear infinite;
+}
+ 
+@keyframes mymove{
+    25%{ transform: rotate(45deg); }
+    50%{ transform: rotate(0deg); }
+    70%{ transform: rotate(-45deg); }
+  }
+
+.skill-percentage{
+    margin-top: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    height: 25%;
+}
+.new{
+     display: flex;
+     padding-left: 5px;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.details{
+    flex:1;
+    width: 100%;
+    color:white;
+    font-weight: bold;
+ }
+.bar{
+    flex: 4;
+    position: relative;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 10px;
+    font-weight: bold;
+
+}
+.bar  div{
+    position: relative;
+    width: 2px;
+    height: 9px;
+    border-radius: 10px;
+    background-color: white;
+}
+.html-bar{
+    animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+    100%{
+        width: 90%;
+    }
+}
+.css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 75%;
+    }
+}
+.js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+    100%{
+        width: 72%;
+    }
+}
+.react-bar{
+    animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+    100%{
+        width: 78%;
+    }
+} 
+
+@media screen and (max-width: 760px) {
+    .skills-heading{
+        padding-top: 80px;
+    }
+  }
+  

@@ -1,0 +1,80 @@
+.project-container{
+    height: 180vh;
+    color: white;
+    padding-top: 80px;
+}
+  
+.head{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    font-size: 36px;
+    text-transform:uppercase ;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px;
+}
+.tools{
+    font-weight: 400;
+    text-align: center;
+    list-style-type: none;
+
+}
+.tools-head{
+    font-weight: 400;
+    text-align: center;
+    list-style-type: none;
+ }
+.project{
+     display: flex;
+     justify-content: space-evenly;
+     flex-direction: column;
+     align-items: center;
+ }
+  
+.project-name{
+    text-align: center;
+}
+img{
+    height: 50%;
+    width: 50%;
+    padding: 10px;
+    transition:  0.3s ease-out;
+}
+img:hover{
+    transform: scale(1.2);
+}
+.git-link{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.btn-default{
+     border:1px solid white;
+     color: white;
+     font-weight: 400;
+     background-color: transparent;
+     border-radius: 5px;
+     margin-left: px25;
+     transition:  0.2s ease-out;
+}
+.btn-default:hover{
+    transform: scale(1.2);
+}
+@media screen and (max-width: 760px) {
+    .project-container{
+        padding-top: 80px;
+    }
+    .project-name{
+        text-align: center;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
