@@ -14,14 +14,14 @@ const Contact = () => {
         <div className="contact-info">
           <a
             className="info"
-            href="https://www.linkedin.com/in/pradeep-ym-317053190/"
+            href="https://mail.google.com/mail" target='_blank'
           >
-            <AiOutlineMail size={50} color="#ff2424" /> Pradeep YM
+            <AiOutlineMail size={50} color="#ff2424" />  gowda29p@gmail.com
           </a>
-          <a className="info" href="https://mail.google.com/mail">
-            <AiFillLinkedin size={50} color="#0077B5" /> gowda29p@gmail.com
+          <a className="info" href="https://www.linkedin.com/in/pradeep-ym-317053190/" target='_blank'> 
+            <AiFillLinkedin size={50} color="#0077B5" /> Pradeep YM
           </a>
-          <a className="info" href="https://web.whatsapp.com">
+          <a className="info" href="https://web.whatsapp.com" target='_blank'>
             <AiOutlineWhatsApp color="green" size={50} /> +91 9535955235
           </a>
         </div>

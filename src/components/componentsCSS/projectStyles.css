@@ -1,5 +1,5 @@
 .project-container{
-    height: 180vh;
+    height: 190vh;
     color: white;
     padding-top: 80px;
 }
@@ -19,16 +19,15 @@
     margin: 100px;
 }
 .tools{
+    list-style-type: none;
     font-weight: 400;
     text-align: center;
-    list-style-type: none;
-
-}
+ }
+ 
 .tools-head{
     font-weight: 400;
     text-align: center;
-    list-style-type: none;
- }
+  }
 .project{
      display: flex;
      justify-content: space-evenly;
@@ -50,7 +49,7 @@ img:hover{
 }
 .git-link{
     display: flex;
-    margin-top: 20px;
+    margin: 20px;
     align-items: center;
     justify-content: center;
 }
@@ -64,7 +63,7 @@ img:hover{
      transition:  0.2s ease-out;
 }
 .btn-default:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
 }
 @media screen and (max-width: 760px) {
     .project-container{

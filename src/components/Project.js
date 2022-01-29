@@ -19,8 +19,7 @@ const Project = () => {
               I have built this E-Commerce appliction by uising Fake API, and I
               also used React Routes for rendering and React Redux for state
               manegment and also used Redux Thunk as middleware. As of now the
-              project is almost 75% completed. Here you can see my project, have
-              a look...
+              project is almost 75% completed. This is how my project looks like.
             </p>
             <ul className="tools">
               <h3 className="tools-head">Used tools and library</h3>
@@ -30,17 +29,17 @@ const Project = () => {
               <li className="used">API</li>
             </ul>
           </div>
+          <div className="git-link">
+                <a href="https://github.com/PG0209/project-e-commers" target="_blank"><button className="btn-default">
+                click here to see the code
+              </button></a>
+            </div>
           <div className="project-img">
             <div className="project-img1">
               <img src={pi3} alt="shopzee.." />
               <img src={pi4} alt="shopzee.." />
               <img src={pi5} alt="shopzee.." />
               <img src={pi6} alt="shopzee.." />
-            </div>
-            <div className="git-link">
-              <button className="btn-default">
-                click here to see the code
-              </button>
             </div>
           </div>
         </div>

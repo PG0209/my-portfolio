@@ -10,7 +10,7 @@ const About = () => {
           <div>
             <p className="me-1">
               Well, as you know my name is pradeep. Just stay little longer, I
-              wont take much of your time.
+              wont take much of your time.</p>
               <p className="me-2">
                 I did completed my 10 and 12th with first class rank (it's just
                 only more than 60%, exactly 64.95% and 63.5%). And after that I
@@ -28,7 +28,7 @@ const About = () => {
                 And now am looking to work in realtime projects in your great
                 organization. And I hope we will meet one day. :)
               </p>
-            </p>
+            
           </div>
           <hr className="line" />
           <div className="about-info">

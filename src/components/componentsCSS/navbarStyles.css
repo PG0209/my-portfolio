@@ -3,8 +3,13 @@
     position: fixed;
     width: 100%;
  }
+ .lio{
+     color: red;
+     font-weight: 900;
+ }
 a {
     text-decoration: none;
+    font-weight: 600;
     color: white;
 }
 a:hover {
