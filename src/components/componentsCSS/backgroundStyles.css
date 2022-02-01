@@ -5,15 +5,7 @@
     background: #413161;
     overflow: hidden;
 }
-.go-down{
-     top: 50%;
-     color: white;
-     position: absolute;
-     transform: rotate(90deg);
-     padding: 2px;
-     border: 0.5px solid white;
-     border-radius: 5px;
-}
+
 div .wave{
     position: absolute;
     bottom: 0;

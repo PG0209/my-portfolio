@@ -17,7 +17,7 @@ const SinglePage = () => {
         <div className="wave wave3"></div>
         <div className="wave wave4"></div>
         <div className="container-fluied">
-          <p className="go-down">scoll down</p>
+          <p className="go-down">scroll down</p>
           <section className="page-navbar">
             <Navbar />
           </section>

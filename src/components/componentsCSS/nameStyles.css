@@ -59,32 +59,18 @@
     font-weight: 600;
   }
 
-  @media screen and (max-width: 400px) {
-    .duction{
-      margin-top: 10px;
-      margin-left: 150px;
-     }
-  }
-
   .my-name .letters {
     font-size: 55px;
     text-shadow: -0.08em 0.03em 0.12em rgba(0, 0, 0, 0.7);
     transition:0.5s;  
   }
 
-  @media screen and (max-width: 400px) {
-    .my-name .letters{
-      margin-top: 10px;
-      margin-left: 70px;
-     }
-  }
   .my-name .letters:hover{
       color: red;   
   }
   .my-name .letters:not(:first-child) {
     margin-left: -0.18em;
   }
-  
 .wrapper{
     box-sizing: content-box;
     height: 60px;
@@ -96,53 +82,96 @@
     font-weight: 600;
   }
   .know{
-    margin-left: 0;
+    margin-left: -30px;
     font-size: 48px;
    }
+   .fields{
+   color: none;
+   display: block;
+   height: 100%;
+   padding-left: 10px;
+   animation: spin_words 6s infinite;
+}
   @media screen and (max-width: 760px) {
     .know{
       font-size: 32px;
       margin-left: 23px;
     }
   }
-  @media screen and (max-width: 552px) {
-      .know{
-        font-size: 30px;
-      }
-     
-  }
-  @media screen and (max-width: 480px) {
-    .know{
-      font-size: 22px;
-      margin-left: -28px;
-    }
-  }
- 
+
 .interested{
     overflow: hidden;
 }
-.fields{
-     color: none;
-    font-size: 50px;
-    display: block;
-    height: 100%;
-    padding-left: 10px;
-    animation: spin_words 6s infinite;
-}
+
 @media screen and (max-width: 760px) {
   .fields{
     font-size: 32px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 540px) {
   .know{
-    font-size: 18px;
-    margin-left: -46px;
-   }
-   .fields{
     font-size: 24px;
   }
+  .fields{
+    font-size: 26px;
+  }
+  .wrapper{
+    margin-left: -335px;
+  }
 }
+@media screen and (max-width: 460px) {
+  .duction{
+    margin-left: 120px ;
+  }
+  .my-name .letters {
+    font-size: 50px;
+    margin-left: 12px;
+  }
+  .fields{
+    font-size: 26px;
+  }
+  .wrapper{
+    margin-left: -290px;
+  }
+}
+@media screen and (max-width: 401px) {
+  .duction{
+    margin-left: 165px ;
+  }
+  .my-name .letters {
+    font-size: 48px;
+    margin-left: 45px;
+  }
+  .fields{
+    font-size: 22px;
+  }
+  .wrapper{
+    margin-left: -275px;
+  }
+}
+@media screen and (max-width: 387px) {
+  .duction{
+    font-size: 18px;
+    width: 100%;
+    margin-left: 125px;
+   }
+  .my-name .letters {
+    font-size: 40px;
+    margin-left: 100px;
+  }
+  .know{
+    font-size: 18px;
+    width: 45%;
+  }
+  .fields{
+    font-size: 18px;
+    border: 1PX SOLID RED;
+    }
+  .wrapper{
+    margin-left: -260px;
+   }
+}
+
 @keyframes spin_words{
   10%{
       transform: translateY(-112%);
@@ -194,4 +223,12 @@
 }
 .html{
   color:rgba(255, 66, 8, 0.774);
+}
+
+@media screen and (max-width: 374px) {
+  .know{
+      font-size: 18px;
+      margin-right: -18px;
+  }
+  
 }

@@ -12,9 +12,14 @@ section{
   position: absolute;
   transform: rotate(90deg);
   padding: 2px;
-  border: 0.5px solid white;
+  border: 0.5px solid red;
   border-radius: 5px;
   opacity: 0.5;
+}
+@media screen and (max-width: 540px) {
+  .go-down{
+   top:70%;
+  }
 }
 .page-navbar{
   position: fixed;
@@ -88,4 +93,10 @@ section{
   .page-4{
     height: 300vh;
   }
+}
+@media screen and (max-width: 410px) {
+  .page-2{
+    height: 280vh;
+  }
+  
 }
